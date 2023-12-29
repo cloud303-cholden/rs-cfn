@@ -1,0 +1,9 @@
+[package]
+name = "cfn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.193", features = ["derive"] }
+serde_with = { version = "3.4.0", features = ["macros"] }
+serde_yaml = "0.9.29"
